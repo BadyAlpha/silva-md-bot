@@ -1,5 +1,5 @@
 {
-  "name": "𝐒𝐈𝐋𝐕𝐀 𝐌𝐃 𝐁𝐎𝐓",
+  "name": "chidyboy,
   "description": "WhatsApp Bot Base using Baileys. Written in javascript developed by silva tech, shizo, xei and lazack",
   "keywords": [
     "whatsapp bot",
@@ -10,30 +10,30 @@
     "WaBot-Base"
   ],
 "env": {
-      "PREFIX": {
+      "PREFIX": {~
       "description": "put any one symbol here except @ and + , leave it Blank if you want to use multiple prefix",
-      "required": false,
-      "value": ""
+      "required": true,
+      "value": "true"
     },
     "statusview": {
       "description": "make it true if you want bot to view status",
-      "required": false,
-      "value": ""
+      "required": true,
+      "value": "true"
     },
     "autoRead": {
       "description": "make it true if you want bot to read messages",
-      "required": false,
+      "required": true,
       "value": ""
     },
     "antidelete": {
       "description": "bot will forward deleted messages if you make it true",
-      "required": false,
+      "required": true,
       "value": "false"
     },
 "OWNER_NAME": {
       "description": "owner name of the bot or Your Name",
-      "required": false,
-      "value": ""
+      "required": true,
+      "value": "chidyboy"
 }
     },
  "buildpacks": [
